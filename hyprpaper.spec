@@ -9,6 +9,7 @@ Source:         %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  gcc-c++
+BuildRequires:  git
 
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(glesv2)
