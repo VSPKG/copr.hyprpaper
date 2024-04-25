@@ -1,5 +1,5 @@
 Name:           hyprpaper
-Version:        0.6.1
+Version:        0.6.0
 Release:        1
 Summary:        Hyprpaper is a blazing fast wayland wallpaper utility with IPC controls.
 
@@ -44,7 +44,4 @@ install -m 755 -Dp %{__cmake_builddir}/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
-* Thu Apr 25 2024 Vineel Sai <mail@vineelsai.com> 0.6.1-1
-- new package built with tito
-
 %autochangelog
