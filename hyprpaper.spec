@@ -1,5 +1,5 @@
 Name:           hyprpaper
-Version:        0.6.0
+Version:        0.7.1
 Release:        1
 Summary:        Hyprpaper is a blazing fast wayland wallpaper utility with IPC controls.
 
@@ -10,6 +10,8 @@ Source:         %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  gcc-c++
 BuildRequires:  git
+BuildRequires:  hyprutils-devel
+BuildRequires:  hyprwayland-scanner-devel
 
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(glesv2)
